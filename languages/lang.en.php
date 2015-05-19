@@ -35,7 +35,7 @@ Language: English
 $lang = array();
 
 //HEADER
-$lang['HTML'] = "<html lang=\"en-US\">"
+$lang['HTML'] = "<html lang=\"en-US\">";
 $lang['PAGE_TITLE'] = 'Assassins Guild';
 $lang['HEADER_TITLE'] = 'Welcome to Assassins\' Guild';
 $lang['SITE_NAME'] = 'Assassins Guild';
@@ -56,7 +56,7 @@ $lang['FOOTER_FREE'] = "Assassins' Guild is <a href=\"https://github.com/aquafox
 //ABOUT
 $lang['ABOUT_TITLE'] = "What is Assassins' Guild?";
 $lang['ABOUT_DESCRIPTION'] = "
-Assassins' Guild is a website that facilitates live action Assassin games such as Steve Jackson's Killer. 
+Assassins' Guild is a website that facilitates live action Assassin games such as <a href=\"http://www.sjgames.com/killer/\">Steve Jackson's Killer</a>. 
 To learn more information visit the <a href=\"http://en.wikipedia.org/wiki/Assassin_(game)\">Wikipedia</a> page or watch the following video:<br>
 <iframe width=\"420\" height=\"315\" src=\"https://www.youtube.com/embed/KOmPLc3WTmU\" frameborder=\"0\" allowfullscreen></iframe>
 ";
