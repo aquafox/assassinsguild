@@ -1,3 +1,4 @@
+![Assassins Guild](http://i.imgur.com/DOPAKmX.png?1 Assassins Guild)
 # Assassins Guild
 A website written in PHP to organize and run your Assassins games. Released under the MIT license. Currently in early stages.
 
