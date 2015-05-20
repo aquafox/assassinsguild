@@ -6,6 +6,6 @@ A website written in PHP to organize and run your Assassins games. Released unde
 * Multilanguage support.
 * Multiple game modes.
 * Guild master controls (administration for your game)
-* HTML5 and PHP5 with JSON
+* HTML5 and PHP5 with MySQL
 * Stylable with CSS and multiplatform support (including Android and iOS)
 
