@@ -26,23 +26,26 @@ THE SOFTWARE.
 */
 
 
-// requireS
+// INCLUDES
 require 'common.php';
 
 ?>
 
 
+<?php
+// HEADER
+require "common/header.php";
 
-<!-- HEADER -->
-<?php require "common/header.php"; ?>
-
-<!-- NAVIGATION -->
-<?php require "common/navigation.php"; ?>
+// NAVIGATION
+require "common/navigation.php";
+?>
 
 <article>
 <h1><?php echo $lang['ABOUT_TITLE']; ?></h1>
 <p><?php echo $lang['ABOUT_DESCRIPTION']; ?></p>
 </article>
 
-<!-- FOOTER -->
-<?php require "common/footer.php"; ?>
+<?php
+// FOOTER
+require "common/footer.php";
+?>
