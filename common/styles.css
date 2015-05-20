@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Anton);
 
 body {
@@ -10,11 +10,26 @@ body {
 
 header {
 	margin: 0 0 0 0;
-	padding: 0em 0 0.25em 3em;
+	padding: 0 0 0 0;
 	background-color: #6A0003;
-	color: #FD0E14;
+	color: #C40B9B;
 	font-family: 'Anton', sans-serif;
 	
+}
+
+header div.banner{
+	border-bottom:solid 3px #FFFFFF;
+}
+
+header img.logo{
+	text-align: center;
+	display: block;
+	padding-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 0 0 0;
+	width:auto;
+	height:15em;
 }
 
 header h1 {
@@ -22,6 +37,9 @@ header h1 {
 	padding: 0.25em 0 0.1em 0;
 	font-size: 3em;
 	letter-spacing: 0.1em;
+	background-color: black;
+	text-align:center;
+	font-weight:lighter;
 }
 
 header h2 {
@@ -31,7 +49,7 @@ header h2 {
 	font-size: 1.25em;
 	color: #FD0E14;
 	letter-spacing: 0.1em;
-	font-family: 'Lora', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -41,7 +59,6 @@ nav {
 	font-family: 'Anton', sans-serif;
 	font-size: 1.75em;
 	color: #C40B9B;
-	border-top:solid #FFFFFF;
 	margin: 0 0 0 0;
 	padding: 0.1em 0 0.1em 0;
 }
@@ -66,20 +83,20 @@ nav a:visited{
 }
 
 article {
-	margin: 0 20% 1em 20%;
+	margin: 0 20% 0 20%;
 	background-color: #4E003D;
 	padding: 1em 2em 1em 2em;
 }
 
 article h1 {
-    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
 	font-size: 2em;
 	color: #FFFFFF;
 }
 
 article p {
 	color:#FFFFFF;
-	font-family: 'Lora', serif;
+	font-family: 'Open Sans', sans-serif;
 	padding: 0.1em 1em 1em 1em;
 	font-size: 14pt;
 }
@@ -104,28 +121,55 @@ article iframe {
 }
 
 footer {
-	color:#970004;
-	font-size:0.75em;
+	color: #FD0E14;
+	font-size: 1em;
 	text-align: center;
-	font-family: "Helvetica", sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: initial;
 }
 
 footer a {
 	text-decoration:none;
-	font-weight:bold;
+	font-weight: 900;
+	color: #FD0E14;
 }
 
 footer a:visited {
-	color:#970004;
+	color: #FD0E14;
+	font-weight: 900;
 }
 
-
- /* define mobile specific styles come here */
-@media only screen and (max-device-width: 480px) {
-
-
+footer div.buttons{
+	border: none;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 }
 
-@media screen and (max-device-width: 480px) and (orientation: portrait){
+footer div.buttons iframe{
+	border: none;
+	display: inline;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+/* define mobile specific styles come here */
+@media only screen and (max-width: 480px){
+
+nav{
+	display: block;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+nav a {
+	display: block;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+article {
+	margin: 0 0 0 0;
+	background-color: #4E003D;
+	padding: 1em 2em 1em 2em;
+}
 
 }

@@ -41,8 +41,9 @@ require "common/navigation.php";
 ?>
 
 <article>
-<h1><?php echo $lang['ABOUT_TITLE']; ?></h1>
-<p><?php echo $lang['ABOUT_DESCRIPTION']; ?></p>
+  <a id="about />
+  <h1><?php echo $lang['ABOUT_TITLE']; ?></h1>
+  <p><?php echo $lang['ABOUT_DESCRIPTION']; ?></p>
 </article>
 
 <?php
