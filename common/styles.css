@@ -60,7 +60,11 @@ nav {
 	font-size: 1.75em;
 	color: #C40B9B;
 	margin: 0 0 0 0;
-	padding: 0.1em 0 0.1em 0;
+	padding: 0 0 0 0;
+}
+
+nav a{
+	padding: 0 0.5em 0 0.5em;
 }
 
 nav a:link{
@@ -83,7 +87,7 @@ nav a:visited{
 }
 
 article {
-	margin: 0 20% 0 20%;
+	margin: 0 20% 0.5em 20%;
 	background-color: #4E003D;
 	padding: 1em 2em 1em 2em;
 }
@@ -145,6 +149,11 @@ footer div.buttons{
 	padding: 0 0 0 0;
 }
 
+footer div.fb-like {
+	color: #FD0E14;
+	padding: 0 0.5em 0 0.5em;
+}
+
 footer div.buttons iframe{
 	border: none;
 	display: inline;
@@ -155,15 +164,41 @@ footer div.buttons iframe{
 /* define mobile specific styles come here */
 @media only screen and (max-width: 480px){
 
+body{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+header h1 {
+	margin: 0 0 0 0;
+	padding: 0.25em 0 0.25em 0;
+	font-size: 2.4em;
+	letter-spacing: 0.1em;
+	background-color: black;
+	text-align:center;
+	font-weight:lighter;
+}
+
+article iframe {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+	height: 200px;
+	border: none;
+	text-align: center;
+}
+
 nav{
 	display: block;
 	margin: 0 0 0 0;
-	padding: 0 0 0 0;
+	padding: 0.2em 0 0.5em 0;
 }
 nav a {
 	display: block;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
+	font-size: 0.75em;
 }
 
 article {

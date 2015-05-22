@@ -50,7 +50,7 @@ $lang['NAV_ABOUT'] = "About Assassins' Guild";
 $lang['NAV_CREATE'] = 'Create a game';
 
 // FOOTER
-$lang['FOOTER_COPY'] = 'Copyright (c) 2015.';
+$lang['FOOTER_COPY'] = 'Copyright &copy; 2015.';
 $lang['FOOTER_FREE'] = "Assassins' Guild is <a href=\"https://github.com/aquafox/assassinsguild\">open source</a> released under the <a rel=\"license\" href=\"https://tldrlegal.com/license/mit-license\">MIT License</a>.
 <br>Site content, images and logo is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>.
 ";
